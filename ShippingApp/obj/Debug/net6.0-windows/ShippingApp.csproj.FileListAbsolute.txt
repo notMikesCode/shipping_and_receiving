@@ -1,0 +1,42 @@
+C:\Users\Zeus\Desktop\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.exe
+C:\Users\Zeus\Desktop\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.deps.json
+C:\Users\Zeus\Desktop\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.runtimeconfig.json
+C:\Users\Zeus\Desktop\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.dll
+C:\Users\Zeus\Desktop\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.pdb
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.csproj.AssemblyReference.cache
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.csproj.GenerateResource.cache
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.AssemblyInfoInputs.cache
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.AssemblyInfo.cs
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.csproj.CoreCompileInputs.cache
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.dll
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\refint\ShippingApp.dll
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.pdb
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.genruntimeconfig.cache
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\ref\ShippingApp.dll
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.ShippingAppMainPage.resources
+C:\Users\Zeus\Desktop\ShippingApp\bin\Debug\net6.0-windows\AForge.dll
+C:\Users\Zeus\Desktop\ShippingApp\bin\Debug\net6.0-windows\AForge.Video.dll
+C:\Users\Zeus\Desktop\ShippingApp\bin\Debug\net6.0-windows\AForge.Video.DirectShow.dll
+C:\Users\Zeus\Desktop\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.csproj.CopyComplete
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.exe
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.deps.json
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.runtimeconfig.json
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.dll
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.pdb
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\bin\Debug\net6.0-windows\AForge.dll
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\bin\Debug\net6.0-windows\AForge.Video.dll
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\bin\Debug\net6.0-windows\AForge.Video.DirectShow.dll
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.csproj.AssemblyReference.cache
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.ShippingAppMainPage.resources
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.csproj.GenerateResource.cache
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.AssemblyInfoInputs.cache
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.AssemblyInfo.cs
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.csproj.CoreCompileInputs.cache
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\Shipping.FE1C3042.Up2Date
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.dll
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\refint\ShippingApp.dll
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.pdb
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.genruntimeconfig.cache
+C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ref\ShippingApp.dll
