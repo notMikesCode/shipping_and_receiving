@@ -1,11 +1,13 @@
 using AForge.Video;
 using AForge.Video.DirectShow;
+using Microsoft.VisualBasic.ApplicationServices;
 using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Net.NetworkInformation;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace ShippingApp
@@ -18,6 +20,14 @@ namespace ShippingApp
 
             this.BackColor = System.Drawing.Color.FromArgb(0, 164, 239); // #00A4EF blue
 
+            CenterAllControls();
+
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+            {
+                FileName = @"C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\map.bat",
+                UseShellExecute = true
+            });
+
             LoadCameraList();
         }
 
@@ -26,7 +36,8 @@ namespace ShippingApp
 
         List<Bitmap> shipmentImages = new List<Bitmap>();
         List<string> imageNames = new List<string>();
-        string filePath = @"M:\shipping_and_receiving\";
+        string filePath = @"S:\";
+        string shippingReceiving = "shipping";
 
         void LoadCameraList()
         {
@@ -46,7 +57,8 @@ namespace ShippingApp
             }
             catch (Exception ex)
             {
-                throw ex;
+                cameraListBox.Text = "No camera found";
+                return;
             }
         }
 
@@ -76,12 +88,15 @@ namespace ShippingApp
 
         private void Camera_On(object sender, NewFrameEventArgs eventArgs)
         {
+            //pictureBox1.Image = (Bitmap)eventArgs.Frame.Clone();
             pictureBox1.Image = (Bitmap)eventArgs.Frame.Clone();
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private void takePhotoBtn_Click(object sender, EventArgs e)
         {
             pictureBox2.Image = pictureBox1.Image;
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private void ShippingAppMainPage_FormClosing(object sender, FormClosingEventArgs e)
@@ -90,9 +105,9 @@ namespace ShippingApp
             {
                 videoCapture.Stop();
             }
-            catch
+            catch (Exception ex)
             {
-                return;
+                throw ex;
             }
         }
 
@@ -178,7 +193,15 @@ namespace ShippingApp
             string yearString = date.ToString("yyyy"); // "yyyy" represents a four-digit year
             string yearMonthMinString = date.ToString("yyyy_MM_dd");
             string timeString = date.ToString("hh_mm_ss_t");
-            string tempFilePath = filePath + yearString + "\\" + yearMonthMinString + "\\" + timeString + "\\";
+            string tempFilePath = filePath + yearString + "\\" + yearMonthMinString + "\\" + shippingReceiving + "\\" + timeString + "\\";
+
+            if (tempFilePath.IndexOfAny(Path.GetInvalidPathChars()) >= 0 || !Directory.Exists(Path.GetPathRoot(tempFilePath)))
+            {
+                MessageBox.Show("Invalid path: " + tempFilePath + " \n\nUsing default local path instead: C:\\Users\\Public\\Documents\\data\\", "Error.", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                tempFilePath = @"C:\Users\Public\Documents\data\" + yearString + "\\" + yearMonthMinString + "\\" + shippingReceiving + "\\" + timeString + "\\";
+
+            }
+
             Directory.CreateDirectory(tempFilePath);
 
             System.Drawing.Imaging.ImageFormat imageFormat = null;
@@ -198,6 +221,7 @@ namespace ShippingApp
             richTextBox1.Text = "";
 
             //MessageBox.Show("Fantastic!");
+            MessageBox.Show("Shipment submitted. Find contents here: " + "\\\\lakshmi.svceng.com\\rdu_lab\\rduLabTeam\\shipping_and_receiving\\", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
@@ -228,15 +252,35 @@ namespace ShippingApp
             if (!sButton1.Checked)
             {
                 this.BackColor = System.Drawing.Color.FromArgb(0, 164, 239); // #00A4EF blue
+                shippingReceiving = "shipping";
                 label10.Text = "SHIPPING";
                 label10.ForeColor = System.Drawing.Color.IndianRed;
             }
             else
             {
                 this.BackColor = System.Drawing.Color.FromArgb(255, 185, 0);// '#FFB900'; yellow
+                shippingReceiving = "receiving";
                 label10.Text = "RECEIVING";
                 label10.ForeColor = System.Drawing.Color.IndianRed;
             }
+        }
+        private void CenterAllControls()
+        {
+            foreach (Control ctrl in this.Controls)
+            {
+                // Skip controls that are docked or anchored to avoid layout issues
+                if (ctrl.Dock != DockStyle.None || ctrl.Anchor != AnchorStyles.None)
+                    continue;
+
+                int x = (this.ClientSize.Width - ctrl.Width) / 2;
+                int y = (this.ClientSize.Height - ctrl.Height) / 2;
+                ctrl.Location = new Point(x, y);
+            }
+        }
+
+        private void refreshBtn_Click(object sender, EventArgs e)
+        {
+            LoadCameraList();
         }
     }
 }

@@ -1,0 +1,1 @@
+net use S: \\lakshmi.svceng.com\rdu_lab\rduLabTeam\shipping_and_receiving

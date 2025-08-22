@@ -91,11 +91,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikeajazi\\OneDrive - Microsoft\\Documents\\Shipping_Reciving\\ShippingApp\\ShippingApp.csproj",
+      "projectUniqueName": "C:\\Users\\Public\\Documents\\shipping_and_receiving\\ShippingApp\\ShippingApp.csproj",
       "projectName": "ShippingApp",
-      "projectPath": "C:\\Users\\mikeajazi\\OneDrive - Microsoft\\Documents\\Shipping_Reciving\\ShippingApp\\ShippingApp.csproj",
+      "projectPath": "C:\\Users\\Public\\Documents\\shipping_and_receiving\\ShippingApp\\ShippingApp.csproj",
       "packagesPath": "C:\\Users\\mikeajazi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikeajazi\\OneDrive - Microsoft\\Documents\\Shipping_Reciving\\ShippingApp\\obj\\",
+      "outputPath": "C:\\Users\\Public\\Documents\\shipping_and_receiving\\ShippingApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -110,7 +110,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

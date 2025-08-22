@@ -43,7 +43,6 @@
             richTextBox1 = new RichTextBox();
             label1 = new Label();
             label2 = new Label();
-            label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
@@ -52,14 +51,16 @@
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
+            refreshBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox1.Location = new Point(84, 132);
+            pictureBox1.Location = new Point(401, 427);
             pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(1048, 935);
@@ -68,7 +69,7 @@
             // 
             // deleteSelectedImageBtn
             // 
-            deleteSelectedImageBtn.Location = new Point(2357, 132);
+            deleteSelectedImageBtn.Location = new Point(3213, 427);
             deleteSelectedImageBtn.Margin = new Padding(4, 5, 4, 5);
             deleteSelectedImageBtn.Name = "deleteSelectedImageBtn";
             deleteSelectedImageBtn.Size = new Size(209, 38);
@@ -79,7 +80,7 @@
             // 
             // cameraOnBtn
             // 
-            cameraOnBtn.Location = new Point(84, 58);
+            cameraOnBtn.Location = new Point(401, 353);
             cameraOnBtn.Margin = new Padding(4, 5, 4, 5);
             cameraOnBtn.Name = "cameraOnBtn";
             cameraOnBtn.Size = new Size(170, 38);
@@ -90,10 +91,10 @@
             // 
             // submitBtn
             // 
-            submitBtn.Location = new Point(1986, 1511);
+            submitBtn.Location = new Point(2602, 1868);
             submitBtn.Margin = new Padding(4, 5, 4, 5);
             submitBtn.Name = "submitBtn";
-            submitBtn.Size = new Size(580, 130);
+            submitBtn.Size = new Size(667, 130);
             submitBtn.TabIndex = 22;
             submitBtn.Text = "Submit Shipment Images";
             submitBtn.UseVisualStyleBackColor = true;
@@ -101,7 +102,7 @@
             // 
             // takePhotoBtn
             // 
-            takePhotoBtn.Location = new Point(430, 1177);
+            takePhotoBtn.Location = new Point(747, 1472);
             takePhotoBtn.Margin = new Padding(4, 5, 4, 5);
             takePhotoBtn.Name = "takePhotoBtn";
             takePhotoBtn.Size = new Size(281, 150);
@@ -115,10 +116,10 @@
             listBox1.BackColor = SystemColors.Window;
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 25;
-            listBox1.Location = new Point(1986, 182);
+            listBox1.Location = new Point(2459, 487);
             listBox1.Margin = new Padding(4, 5, 4, 5);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(578, 504);
+            listBox1.Size = new Size(963, 504);
             listBox1.TabIndex = 21;
             listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
@@ -126,7 +127,7 @@
             // 
             cameraListBox.DropDownStyle = ComboBoxStyle.DropDownList;
             cameraListBox.FormattingEnabled = true;
-            cameraListBox.Location = new Point(263, 58);
+            cameraListBox.Location = new Point(580, 353);
             cameraListBox.Margin = new Padding(4, 5, 4, 5);
             cameraListBox.Name = "cameraListBox";
             cameraListBox.Size = new Size(235, 33);
@@ -135,7 +136,8 @@
             // imageNameLbl
             // 
             imageNameLbl.AutoSize = true;
-            imageNameLbl.Location = new Point(1280, 790);
+            imageNameLbl.BackColor = Color.Transparent;
+            imageNameLbl.Location = new Point(1660, 1081);
             imageNameLbl.Margin = new Padding(4, 0, 4, 0);
             imageNameLbl.Name = "imageNameLbl";
             imageNameLbl.Size = new Size(118, 25);
@@ -144,8 +146,9 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.BackColor = Color.Transparent;
             pictureBox2.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox2.Location = new Point(1214, 132);
+            pictureBox2.Location = new Point(1600, 432);
             pictureBox2.Margin = new Padding(4, 5, 4, 5);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(702, 550);
@@ -154,7 +157,7 @@
             // 
             // addImageBtn
             // 
-            addImageBtn.Location = new Point(1414, 870);
+            addImageBtn.Location = new Point(1800, 1170);
             addImageBtn.Margin = new Padding(4, 5, 4, 5);
             addImageBtn.Name = "addImageBtn";
             addImageBtn.Size = new Size(281, 150);
@@ -165,7 +168,7 @@
             // 
             // fileNameTxtBx
             // 
-            fileNameTxtBx.Location = new Point(1400, 778);
+            fileNameTxtBx.Location = new Point(1786, 1078);
             fileNameTxtBx.Margin = new Padding(4, 5, 4, 5);
             fileNameTxtBx.Name = "fileNameTxtBx";
             fileNameTxtBx.Size = new Size(265, 31);
@@ -173,7 +176,7 @@
             // 
             // clearBtn
             // 
-            clearBtn.Location = new Point(1676, 777);
+            clearBtn.Location = new Point(2062, 1077);
             clearBtn.Margin = new Padding(4, 5, 4, 5);
             clearBtn.Name = "clearBtn";
             clearBtn.Size = new Size(107, 38);
@@ -184,17 +187,18 @@
             // 
             // richTextBox1
             // 
-            richTextBox1.Location = new Point(1986, 777);
+            richTextBox1.Location = new Point(2459, 1082);
             richTextBox1.Margin = new Padding(4, 5, 4, 5);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(578, 464);
+            richTextBox1.Size = new Size(963, 464);
             richTextBox1.TabIndex = 24;
             richTextBox1.Text = "";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(1986, 747);
+            label1.BackColor = Color.Transparent;
+            label1.Location = new Point(2459, 1052);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(63, 25);
@@ -204,9 +208,10 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.ForeColor = Color.Red;
-            label2.Location = new Point(1214, 1065);
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(1600, 1495);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(559, 45);
@@ -214,20 +219,13 @@
             label2.Text = "• Include Image(s) of shipping label(s)";
             label2.Click += label2_Click;
             // 
-            // label3
-            // 
-            label3.Location = new Point(0, 0);
-            label3.Margin = new Padding(4, 0, 4, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(143, 38);
-            label3.TabIndex = 0;
-            // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.ForeColor = Color.Red;
-            label4.Location = new Point(1214, 1147);
+            label4.ForeColor = Color.Black;
+            label4.Location = new Point(1600, 1577);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new Size(528, 45);
@@ -237,9 +235,10 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.ForeColor = Color.Red;
-            label5.Location = new Point(1214, 1223);
+            label5.ForeColor = Color.Black;
+            label5.Location = new Point(1600, 1653);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
             label5.Size = new Size(748, 45);
@@ -249,9 +248,10 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
             label6.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.ForeColor = Color.Red;
-            label6.Location = new Point(1214, 1303);
+            label6.ForeColor = Color.Black;
+            label6.Location = new Point(1600, 1733);
             label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
             label6.Size = new Size(764, 45);
@@ -261,9 +261,10 @@
             // label7
             // 
             label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
             label7.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.ForeColor = Color.Red;
-            label7.Location = new Point(1214, 1380);
+            label7.ForeColor = Color.Black;
+            label7.Location = new Point(1600, 1810);
             label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
             label7.Size = new Size(477, 45);
@@ -272,7 +273,7 @@
             // 
             // sButton1
             // 
-            sButton1.Location = new Point(2117, 1326);
+            sButton1.Location = new Point(2797, 1637);
             sButton1.MinimumSize = new Size(45, 22);
             sButton1.Name = "sButton1";
             sButton1.OffBackColor = Color.Gray;
@@ -288,7 +289,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(1986, 1376);
+            label8.Location = new Point(2666, 1687);
             label8.Name = "label8";
             label8.Size = new Size(126, 38);
             label8.TabIndex = 33;
@@ -298,7 +299,7 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label9.Location = new Point(2431, 1380);
+            label9.Location = new Point(3111, 1691);
             label9.Name = "label9";
             label9.Size = new Size(135, 38);
             label9.TabIndex = 34;
@@ -307,20 +308,33 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Font = new Font("Segoe UI", 26F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.BackColor = Color.Transparent;
+            label10.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point);
             label10.ForeColor = Color.IndianRed;
-            label10.Location = new Point(1414, 25);
+            label10.Location = new Point(1751, 235);
             label10.Name = "label10";
-            label10.Size = new Size(273, 70);
+            label10.Size = new Size(377, 96);
             label10.TabIndex = 35;
             label10.Text = "SHIPPING";
+            // 
+            // refreshBtn
+            // 
+            refreshBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            refreshBtn.Location = new Point(822, 351);
+            refreshBtn.Name = "refreshBtn";
+            refreshBtn.Size = new Size(48, 40);
+            refreshBtn.TabIndex = 36;
+            refreshBtn.Text = "🔄";
+            refreshBtn.UseVisualStyleBackColor = true;
+            refreshBtn.Click += refreshBtn_Click;
             // 
             // ShippingAppMainPage
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.CornflowerBlue;
-            ClientSize = new Size(2743, 1800);
+            ClientSize = new Size(3866, 2186);
+            Controls.Add(refreshBtn);
             Controls.Add(label10);
             Controls.Add(label9);
             Controls.Add(label8);
@@ -330,7 +344,6 @@
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(label3);
             Controls.Add(label1);
             Controls.Add(richTextBox1);
             Controls.Add(pictureBox1);
@@ -376,7 +389,6 @@
         private RichTextBox richTextBox1;
         private Label label1;
         private Label label2;
-        private Label label3;
         private Label label4;
         private Label label5;
         private Label label6;
@@ -385,5 +397,6 @@
         private Label label8;
         private Label label9;
         private Label label10;
+        private Button refreshBtn;
     }
 }

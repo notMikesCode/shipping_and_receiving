@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShippingApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce816045c5545ca94ec571f55a34f4b69ff1858b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShippingApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShippingApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

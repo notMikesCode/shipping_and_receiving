@@ -40,3 +40,25 @@ C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\
 C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.pdb
 C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.genruntimeconfig.cache
 C:\Users\mikeajazi\OneDrive - Microsoft\Documents\Shipping_Reciving\ShippingApp\obj\Debug\net6.0-windows\ref\ShippingApp.dll
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.exe
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.deps.json
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.runtimeconfig.json
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.dll
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\bin\Debug\net6.0-windows\ShippingApp.pdb
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\bin\Debug\net6.0-windows\AForge.dll
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\bin\Debug\net6.0-windows\AForge.Video.dll
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\bin\Debug\net6.0-windows\AForge.Video.DirectShow.dll
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.csproj.AssemblyReference.cache
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.ShippingAppMainPage.resources
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.csproj.GenerateResource.cache
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.AssemblyInfoInputs.cache
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.AssemblyInfo.cs
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.csproj.CoreCompileInputs.cache
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.sourcelink.json
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\Shipping.FE1C3042.Up2Date
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.dll
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\refint\ShippingApp.dll
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.pdb
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\ShippingApp.genruntimeconfig.cache
+C:\Users\Public\Documents\shipping_and_receiving\ShippingApp\obj\Debug\net6.0-windows\ref\ShippingApp.dll
